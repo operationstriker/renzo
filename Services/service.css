@@ -1,0 +1,508 @@
+body {
+    background-color: rgb(24, 24, 24);
+    height: 80vh;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#logotext {
+    position: relative;
+    height: 40px;
+    top: -450px;
+    left: 20px;
+    color: #1b9bff;
+    font-size: 3.5em;
+    cursor: pointer;
+   
+}
+
+#renzotext {
+    text-decoration: none;
+}
+
+
+nav {
+    position: absolute;
+    bottom: 92%;
+    right: 0.3%;
+    /* background-color: rgb(195, 194, 194); */
+    height: 60px;
+    width: 100%;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    font-family: Arial;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    color:  #1b9bff;
+    transition: .5s;
+}
+
+
+#Bookbtn {
+    position: relative;
+    top: -10px;
+    font-size: 1.2em;
+    height: 5vh;
+    width: 10vw;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: #1b9bff;
+    color: white;
+    cursor: pointer;
+}
+
+/* #navbarButton {
+    position: relative;
+    bottom: 10px;
+    height: 5vh;
+    width: 10vw;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid;
+    border-color:  #1b9bff;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+} */
+
+#Bookbtn:hover {
+    background-color: #1b9bff;
+ }
+
+
+
+#GrayHome {
+    position: relative;
+    top: -8px;
+    left: -8px;
+    height: 50vh;
+    width: 100vw;
+}
+
+#Servicetext {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 4.4em;
+    color: white;
+}
+
+.HaircutDiv {
+    position: relative;
+    bottom: 400px;
+    left: 200px;
+    background-color: lightgray;
+    height: 40vh;
+    width: 55%;
+}
+
+
+#Image1 {
+    position: absolute;
+    bottom: 10%;
+    left: 6%;
+    height: 35vh;
+}
+
+#Image2 {
+    position: absolute;
+    bottom: 10%;
+    left: 29%;
+    height: 35vh;
+}
+
+#Image3 {
+    position: absolute;
+    bottom: 10%;
+    left: 52%;
+    height: 35vh;
+}
+
+#Image4 {
+    position: absolute;
+    left: 75%;
+    bottom: 10%;
+    height: 35vh;
+}
+
+.Haircut {
+    position: relative;
+    bottom: -28%;
+    left: 12%;
+}
+
+#HaircutText {
+    color: white;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+
+#HaircutPrice {
+    position: relative;
+    left: 35px;
+    color: white;
+    font-size: 1.5em;
+    font-family: Helvetica;
+}
+
+.KidHaircut {
+    position: relative;
+    bottom: -18%;
+    left: 33%;
+}
+
+#KidHaircutText {
+    color: white;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+
+#KidHaircutPrice {
+    position: relative;
+    left: 65px;
+    color: white;
+    font-size: 1.5em;
+    font-family: Helvetica;
+}
+
+
+.Beard {
+    position: relative;
+    bottom: -8%;
+    left: 57%;
+}
+
+#BeardText {
+    color: white;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+
+#BeardPrice {
+    position: relative;
+    left: 65px;
+    color: white;
+    font-size: 1.5em;
+    font-family: Helvetica;
+}
+
+.Designs {
+    position: relative;
+    bottom: 3%;
+    left: 82%;
+}
+
+#DesignText {
+    color: white;
+    font-size: 30px;
+    font-family: Helvetica; 
+}
+
+#DesignPrice {
+    position: relative;
+    left: 45px;
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica; 
+}
+
+#ServiceBannerImg {
+    position: relative;
+    bottom: 100px;
+    height: 45%;
+    width: 100%;
+}
+
+#NeedServiceText {
+    position: relative;
+    bottom: 400px;
+    left: 550px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+#ServiceBtn {
+    position: relative;
+    /* top: -10px; */
+    font-size: 20px;
+    height: 50px;
+    width: 180px;
+    background-color: #1b9bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#BookButton {
+    position: relative;
+    /* top: -10px; */
+    bottom: 5%;
+    left: 35%;
+    font-size: 1.5em;
+    height: 8vh;
+    width: 15vw;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: #1b9bff;
+    /* border: none; */
+    color: white;
+    cursor: pointer;
+}
+
+#BookButton:hover {
+    position: relative;
+    /* top: -10px; */
+    bottom: 5%;
+    left: 35%;
+    font-size: 1.5em;
+    height: 8vh;
+    width: 15vw;
+    background-color: #1b9bff;
+    border: 2px solid;
+    border-color: #1b9bff;
+    /* border: none; */
+    color: white;
+    cursor: pointer;
+}
+
+#ContactBtn {
+    position: relative;
+    /* top: -10px; */
+    bottom: 5%;
+    left: 36%;
+    font-size: 1.5em;
+    height: 8vh;
+    width: 15vw;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: white;
+    /* border-color: #888888; */
+    color: white;
+    cursor: pointer;
+}
+
+#ContactBtn:hover {
+    position: relative;
+    /* top: -10px; */
+    bottom: 5%;
+    left: 36%;
+    font-size: 1.5em;
+    height: 8vh;
+    width: 15vw;
+    background-color: white;
+    border: 2px solid;
+    border-color: white;
+    /* border-color: #888888; */
+    color: black;
+    cursor: pointer;
+}
+
+
+.NeedServiceBTNS {
+    position: relative;
+    margin-right: 20px;
+    bottom: 430px;
+    left: 540px;
+}
+
+
+
+#aAbout {
+    position: relative;
+    height: 1vh;
+    bottom: 37px;
+    left: 130px;
+}
+
+#aServices {
+    position: relative;
+    height: 1vh;
+    bottom: 70px;
+    left: 250px;
+}
+
+#aContact {
+    position: relative;
+    height: 1vh;
+    bottom: 103px;
+    left: 390px;
+}
+
+#Webdesign {
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+#CopyrightText {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#OwnerText {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#WebsiteText {
+    position: relative;
+    bottom: -60px;
+    left: 1000px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#renzoblendzfooter {
+    position: relative;
+    bottom: 125px;
+    left: 550px;
+    color:#1b9bff;
+    font-size: 80px;
+    
+}
+
+.SocialLinks {
+    position: relative;
+    bottom: 60px;
+    left: 1150px;
+    cursor: pointer;
+}
+
+#TikTokIcon {
+    position: relative;
+    bottom: 153px;
+    left: 1261px;
+    cursor: pointer;
+}
+
+.LowerTexts {
+    position: relative;
+    bottom: 50px;
+    left: 1100px;
+}
+
+
+footer {
+    position: relative;
+    top: 5.5%;
+    left: -0.05%;
+    background-color: rgb(37, 37, 37);
+    height: 20vh;
+    width: 100vw;
+}
+
+#InstagramLogo {
+   height: 8vh;
+   width: 5vw;
+   cursor: pointer;
+   /* background-color: rgb(3, 0, 68); */
+   background-color: rgb(93, 93, 93);
+   border-radius: 4cm;
+}
+
+#TikTokLogo {
+    height: 8vh;
+    width: 5vw;
+    cursor: pointer;
+    background-color: rgb(93, 93, 93);
+    border-radius: 4cm;
+}
+
+.FooterImages {
+    position: relative;
+    left: 50%;
+    margin-right: 15px;
+}
+
+
+#CopyrightText {
+    position: relative;
+    bottom: 124%;
+    left: 75%;
+    color: white;
+    font-size: 1.3em;
+    font-family: Arial;
+}
+
+#OwnerText {
+    position: relative;
+    bottom: 135%;
+    left: 75%;
+    color: white;
+    font-size: 1.3em;
+    font-family: Arial;
+}
+
+.NavigationTexts {
+    position: relative;
+    top: 40%;
+    left: 2%;
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 2em;
+    font-weight: 550;
+    margin-right: 15px;
+}
+
+
+#renzoblendzfooter {
+    position: relative;
+    /* bottom: 125px;
+    left: 550px; */
+    top: -45%;
+    left: 38%;
+    color:#1b9bff;
+    font-size: 4.4em;
+}
+
+
+#Slogan {
+    position: relative;
+    bottom: 5%;
+    left: 28%;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+
+
+
+
+
+
+    
